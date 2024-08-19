@@ -18,7 +18,8 @@
         * {
             font-family: "poppins";
         }
-        .flex-col{
+
+        .flex-col {
             flex-direction: column;
         }
     </style>
@@ -26,6 +27,11 @@
 
 <body>
     <header class="max-w-screen-2xl mx-auto">
+        <label class="flex cursor-pointer gap-2">
+            <span class="label-text">Current</span>
+            <input type="checkbox" value="synthwave" class="toggle theme-controller" />
+            <span class="label-text">Synthwave</span>
+        </label>
         <div class="navbar bg-base-100 mt-12 mb-12">
             <div class="flex-1">
                 <div class="dropdown">
@@ -42,6 +48,13 @@
                         <li><a>Shop</a></li>
                         <li><a>News</a></li>
                         <li><a>Contact</a></li>
+                        <li>
+                            <label class="flex cursor-pointer gap-2">
+                                <span class="label-text">Current</span>
+                                <input type="checkbox" value="synthwave" class="toggle theme-controller" />
+                                <span class="label-text">Synthwave</span>
+                            </label>
+                        </li>
                     </ul>
                 </div>
                 <a class="btn btn-ghost md:text-4xl font-bold">Bike Dekho</a>
@@ -223,29 +236,29 @@
         </section>
     </main>
     <footer class=" bg-black">
-    <div class="max-w-screen-2xl mx-auto justify-around footer text-neutral-content p-10">
-        <nav>
-            <h6 class="footer-title">Services</h6>
-            <a class="link link-hover">Branding</a>
-            <a class="link link-hover">Design</a>
-            <a class="link link-hover">Marketing</a>
-            <a class="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-            <h6 class="footer-title">Company</h6>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-            <h6 class="footer-title">Legal</h6>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
-        </nav>
-    </div>
-</footer>
+        <div class="max-w-screen-2xl mx-auto justify-around footer text-neutral-content p-10">
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 
 </html>
