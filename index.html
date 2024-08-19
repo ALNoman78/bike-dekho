@@ -18,6 +18,9 @@
         * {
             font-family: "poppins";
         }
+        .flex-col{
+            flex-direction: column;
+        }
     </style>
 </head>
 
@@ -168,7 +171,7 @@
         <section class="Frequently-Asked-Questions max-w-screen-2xl mx-auto">
             <h3 class="md:text-5xl text-4xl font-bold text-center font-4xl">Frequently Asked Questions</h3>
             <div class="hero  min-h-screen">
-                <div class="md:flex flex-col hero-content ">
+                <div class="hero-content flex-col">
                     <img src="./images/others/faq.png" />
                     <div class="md:ml-24">
                         <div tabindex="0" class="my-5 collapse collapse-arrow border-base-300 border ">
@@ -210,16 +213,39 @@
                             </div>
                         </div>
                         <div class="">
-                            <a class="btn bg-transparent border-1 border-solid border-[#E76F51] px-10  text-[#E76F51] hover:bg-[#E76F51] hover:text-white">Get Started</a>
+                            <a
+                                class="btn bg-transparent border-1 border-solid border-[#E76F51] px-10  text-[#E76F51] hover:bg-[#E76F51] hover:text-white">Get
+                                Started</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class=" bg-black">
+    <div class="max-w-screen-2xl mx-auto justify-around footer text-neutral-content p-10">
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </div>
+</footer>
 </body>
 
 </html>
